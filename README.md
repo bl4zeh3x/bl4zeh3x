@@ -4,7 +4,7 @@ Building at the intersection of **embedded systems and machine learning**.
 
 My focus is TinyML — compressing and deploying neural networks onto microcontrollers
 where memory is measured in kilobytes, compute is measured in milliwatts, and the
-cloud is not an option. I find the constraint-driven engineering of this space more
+cloud is not an option. I find the constraint driven engineering of this space more
 interesting than unconstrained cloud ML.
 
 ---
