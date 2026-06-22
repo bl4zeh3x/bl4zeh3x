@@ -27,7 +27,7 @@ Environment: WSL2 + Ubuntu + Conda + VS Code
 
 ### Currently learning
 
-- Practical deep learning — fast.ai
+- Practical deep learning - fast.ai
 - TensorFlow Lite for Microcontrollers
 - Embedded firmware engineering
 
