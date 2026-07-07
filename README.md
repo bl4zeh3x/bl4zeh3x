@@ -31,7 +31,8 @@ Environment: WSL2 + Ubuntu + Conda + VS Code
 - TensorFlow Lite for Microcontrollers
 - Embedded firmware engineering
 
----
+## 📊 GitHub Summary
 
-
-
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bl4zeh3x&theme=github_dark" />
+</p>
