@@ -3,23 +3,28 @@
 
 
 
+
 <p align="left">
-  <a href="https://instagram.com/YOUR_INSTAGRAM_USERNAME" target="_blank">
-    <img src="assets/social/instagram.svg" alt="Instagram" width="24" height="24"/>
-  </a>&nbsp;&nbsp;
+  <a href="https://instagram.com/YOUR_INSTAGRAM_USERNAME" style="text-decoration:none;">
+    <img src="assets/social/instagram.svg" alt="Instagram" width="24" height="24">
+  </a>
+  &nbsp;&nbsp;
 
-  <a href="https://x.com/YOUR_X_USERNAME" target="_blank">
-    <img src="assets/social/x.svg" alt="X" width="24" height="24"/>
-  </a>&nbsp;&nbsp;
+  <a href="https://x.com/YOUR_X_USERNAME" style="text-decoration:none;">
+    <img src="assets/social/x.svg" alt="X" width="24" height="24">
+  </a>
+  &nbsp;&nbsp;
 
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank">
-    <img src="assets/social/Linkedin.svg" alt="LinkedIn" width="24" height="24"/>
-  </a>&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME" style="text-decoration:none;">
+    <img src="assets/social/Linkedin.svg" alt="LinkedIn" width="24" height="24">
+  </a>
+  &nbsp;&nbsp;
 
-  <a href="https://kaggle.com/YOUR_KAGGLE_USERNAME" target="_blank">
-    <img src="assets/social/Kaggle.svg" alt="Kaggle" width="24" height="24"/>
+  <a href="https://kaggle.com/YOUR_KAGGLE_USERNAME" style="text-decoration:none;">
+    <img src="assets/social/Kaggle.svg" alt="Kaggle" width="24" height="24">
   </a>
 </p>
+
 
 
 
