@@ -1,4 +1,25 @@
-## Balajee
+## Hi 👋, I'm Blaze
+
+<p align="left">
+  <a href="https://instagram.com/YOUR_INSTAGRAM_USERNAME" target="_blank">
+    <img src="https://skillicons.dev/icons?i=instagram" height="38" alt="Instagram"/>
+  </a>
+  &nbsp;&nbsp;
+
+  <a href="https://x.com/YOUR_X_USERNAME" target="_blank">
+    <img src="https://cdn.simpleicons.org/x/000000" height="38" alt="X"/>
+  </a>
+  &nbsp;&nbsp;
+
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" height="38" alt="LinkedIn"/>
+  </a>
+  &nbsp;&nbsp;
+
+  <a href="https://kaggle.com/YOUR_KAGGLE_USERNAME" target="_blank">
+    <img src="https://cdn.simpleicons.org/kaggle/20BEFF" height="38" alt="Kaggle"/>
+  </a>
+</p>
 
 Building at the intersection of **embedded systems and machine learning**.
 
