@@ -31,6 +31,7 @@ Environment: WSL2 + Ubuntu + Conda + VS Code
 - TensorFlow Lite for Microcontrollers
 - Embedded firmware engineering
 
+## 🛠️ Tech Stack
 
 ![](./profile-3d-contrib/profile-green-animate.svg)
 
