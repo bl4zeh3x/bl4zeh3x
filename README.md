@@ -13,11 +13,11 @@
   </a>&nbsp;&nbsp;
 
   <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank">
-    <img src="assets/social/linkedin.svg" alt="LinkedIn" width="24" height="24"/>
+    <img src="assets/social/Linkedin.svg" alt="LinkedIn" width="24" height="24"/>
   </a>&nbsp;&nbsp;
 
   <a href="https://kaggle.com/YOUR_KAGGLE_USERNAME" target="_blank">
-    <img src="assets/social/kaggle.svg" alt="Kaggle" width="24" height="24"/>
+    <img src="assets/social/Kaggle.svg" alt="Kaggle" width="24" height="24"/>
   </a>
 </p>
 
