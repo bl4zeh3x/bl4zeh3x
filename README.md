@@ -1,11 +1,12 @@
 ## Hi 👋, I'm Blaze
 
 
+
 <p align="left">
   <a href="https://instagram.com/YOUR_INSTAGRAM_USERNAME" target="_blank">
-    <img src="https://cdn.simpleicons.org/instagram" width="28" height="28" alt="Instagram"/>
+    <img src="./assets/social/instagram.svg" alt="Instagram" width="24" height="24"/>
   </a>
-  &nbsp;&nbsp;
+</p>
 
   <a href="https://x.com/YOUR_X_USERNAME" target="_blank">
     <img src="https://cdn.simpleicons.org/x" width="28" height="28" alt="X"/>
