@@ -2,26 +2,25 @@
 
 
 
+
 <p align="left">
   <a href="https://instagram.com/YOUR_INSTAGRAM_USERNAME" target="_blank">
-    <img src="./assets/social/instagram.svg" alt="Instagram" width="24" height="24"/>
-  </a>
-</p>
+    <img src="assets/social/instagram.svg" alt="Instagram" width="24" height="24"/>
+  </a>&nbsp;&nbsp;
 
   <a href="https://x.com/YOUR_X_USERNAME" target="_blank">
-    <img src="https://cdn.simpleicons.org/x" width="28" height="28" alt="X"/>
-  </a>
-  &nbsp;&nbsp;
+    <img src="assets/social/x.svg" alt="X" width="24" height="24"/>
+  </a>&nbsp;&nbsp;
 
   <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank">
-    <img src="https://cdn.simpleicons.org/linkedin" width="28" height="28" alt="LinkedIn"/>
-  </a>
-  &nbsp;&nbsp;
+    <img src="assets/social/linkedin.svg" alt="LinkedIn" width="24" height="24"/>
+  </a>&nbsp;&nbsp;
 
   <a href="https://kaggle.com/YOUR_KAGGLE_USERNAME" target="_blank">
-    <img src="https://cdn.simpleicons.org/kaggle" width="28" height="28" alt="Kaggle"/>
+    <img src="assets/social/kaggle.svg" alt="Kaggle" width="24" height="24"/>
   </a>
 </p>
+
 
 
 Building at the intersection of **embedded systems and machine learning**.
