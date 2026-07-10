@@ -1,31 +1,11 @@
 ## Hi 👋, I'm Blaze
 
-
-<table border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td>
-      <a href="https://instagram.com/bl4zeh3x">
-        <img src="assets/social/instagram.svg" alt="Instagram" width="24" height="24" />
-      </a>
-    </td>
-    <td>
-      <a href="https://x.com/bl4zeh3x">
-        <img src="assets/social/x.svg" alt="X" width="24" height="24" />
-      </a>
-    </td>
-    <td>
-      <a href="https://linkedin.com/in/bl4zeh3x">
-        <img src="assets/social/Linkedin.svg" alt="LinkedIn" width="24" height="24" />
-      </a>
-    </td>
-    <td>
-      <a href="https://kaggle.com/bl4zeh3x">
-        <img src="assets/social/Kaggle.svg" alt="Kaggle" width="24" height="24" />
-      </a>
-    </td>
-  </tr>
-</table>
-
+<p align="left">
+  <a href="https://instagram.com/bl4zeh3x"><img src="assets/social/instagram.svg" width="32" height="32" alt="Instagram" /></a>&nbsp;&nbsp;
+  <a href="https://x.com/bl4zeh3x"><img src="assets/social/x.svg" width="32" height="32" alt="X" /></a>&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/bl4zeh3x"><img src="assets/social/Linkedin.svg" width="32" height="32" alt="LinkedIn" /></a>&nbsp;&nbsp;
+  <a href="https://kaggle.com/bl4zeh3x"><img src="assets/social/Kaggle.svg" width="32" height="32" alt="Kaggle" /></a>
+</p>
 
 Building at the intersection of **embedded systems and machine learning**.
 
