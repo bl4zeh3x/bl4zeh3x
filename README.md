@@ -1,38 +1,31 @@
 ## Hi 👋, I'm Blaze
 
-<p align="left">
-  <a href="https://instagram.com/bl4zeh3x">
-    <img src="assets/social/instagram.svg"
-         alt="Instagram"
-         width="24"
-         height="24"
-         style="display:block;">
-  </a>
 
-  <a href="https://x.com/bl4zeh3x">
-    <img src="assets/social/x.svg"
-         alt="X"
-         width="24"
-         height="24"
-         style="display:block;">
-  </a>
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+      <a href="https://instagram.com/bl4zeh3x">
+        <img src="assets/social/instagram.svg" alt="Instagram" width="24" height="24" />
+      </a>
+    </td>
+    <td>
+      <a href="https://x.com/bl4zeh3x">
+        <img src="assets/social/x.svg" alt="X" width="24" height="24" />
+      </a>
+    </td>
+    <td>
+      <a href="https://linkedin.com/in/bl4zeh3x">
+        <img src="assets/social/Linkedin.svg" alt="LinkedIn" width="24" height="24" />
+      </a>
+    </td>
+    <td>
+      <a href="https://kaggle.com/bl4zeh3x">
+        <img src="assets/social/Kaggle.svg" alt="Kaggle" width="24" height="24" />
+      </a>
+    </td>
+  </tr>
+</table>
 
-  <a href="https://linkedin.com/in/bl4zeh3x">
-    <img src="assets/social/Linkedin.svg"
-         alt="LinkedIn"
-         width="24"
-         height="24"
-         style="display:block;">
-  </a>
-
-  <a href="https://kaggle.com/bl4zeh3x">
-    <img src="assets/social/Kaggle.svg"
-         alt="Kaggle"
-         width="24"
-         height="24"
-         style="display:block;">
-  </a>
-</p>
 
 Building at the intersection of **embedded systems and machine learning**.
 
