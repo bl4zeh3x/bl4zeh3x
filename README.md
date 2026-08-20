@@ -1,4 +1,4 @@
-## Hi 👋, I'm Blaze
+1## Hi 👋, I'm Blaze
 
 <p align="left">
   <a href="https://instagram.com/bl4zeh3x"><img src="assets/social/instagram.svg" width="22" height="22" alt="Instagram" /></a>&nbsp;&nbsp;
