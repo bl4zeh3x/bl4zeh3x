@@ -19,6 +19,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: bl4zeh3x
 
+      - name: Build adaptive chart
+        run: python3 .github/scripts/build-adaptive-chart.py
+
       - name: Commit files
         run: |
           git config user.name github-actions

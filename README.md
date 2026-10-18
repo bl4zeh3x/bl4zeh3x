@@ -58,6 +58,5 @@ I'm interested in internships, open-source contributions, and projects involving
   </tr>
 </table>
 
-![3D GitHub contribution graph — light theme](./profile-3d-contrib/profile-green-animate.svg#gh-light-mode-only)
-![3D GitHub contribution graph — dark theme](./profile-3d-contrib/profile-night-green.svg#gh-dark-mode-only)
+![3D GitHub contribution graph](./profile-3d-contrib/profile-adaptive.svg)
 
