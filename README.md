@@ -1,4 +1,8 @@
-1## Hi 👋, I'm Blaze
+# Hi, I'm Blaze 👋
+
+**Python · C/C++ · TinyML · Embedded software**
+
+I've been working on small machine-learning models intended for microcontrollers. Most of the work so far is in Python: training models, testing them, and exporting them to C. Actual hardware benchmarks are still ahead.
 
 <p align="left">
   <a href="https://instagram.com/bl4zeh3x"><img src="assets/social/instagram.svg" width="22" height="22" alt="Instagram" /></a>&nbsp;&nbsp;
@@ -7,37 +11,22 @@
   <a href="https://kaggle.com/bl4zeh3x"><img src="assets/social/Kaggle.svg" width="22" height="22" alt="Kaggle" /></a>
 </p>
 
-Building at the intersection of **embedded systems and machine learning**.
+### Current project — [ECG anomaly detection](https://github.com/bl4zeh3x/tinyml-explorations/tree/main/experiments/ecg-anomaly-detection)
 
-My focus is TinyML — compressing and deploying neural networks onto microcontrollers
-where memory is measured in kilobytes, compute is measured in milliwatts, and the
-cloud is not an option.I find the constraint driven engineering of this space more
-interesting than unconstrained cloud ML.
+An experiment in getting heartbeat classifiers small enough for embedded devices.
 
----
+- Extracted **24 features per heartbeat**, including RR-interval timing.
+- Compared three model sizes using a **patient-separated** train/test split.
+- Exported the compact models to C and added tests that compare their predictions with Python.
 
-### Currently building
+The Edge model reached **82.95% accuracy and 0.409 macro F1** on held-out patients. It still struggles with some less common heartbeat classes; the per-class results are linked below.
 
-- **Keyword spotting system** — wake-word detection running on-device,
-  target model size under 50KB of flash
-- **Quantization study** — measuring the accuracy/latency/size tradeoff
-  when compressing float32 models to int8 for embedded deployment
-- **Open-source work** — working toward contributions in TensorFlow Lite Micro
+[Code & tests](https://github.com/bl4zeh3x/tinyml-explorations/tree/main/experiments/ecg-anomaly-detection) · [Results](https://github.com/bl4zeh3x/tinyml-explorations/blob/main/experiments/ecg-anomaly-detection/results/summary.json) · [CI](https://github.com/bl4zeh3x/tinyml-explorations/actions/workflows/test.yml)
 
-### Technical stack
+**Next:** run the exported models on real hardware and measure inference latency and memory usage.
 
-Embedded side: C++, digital systems, microcontrollers, communication protocols
+I'm interested in internships, open-source contributions, and projects involving Python, ML tooling, or embedded software.
 
-ML side: Python, TensorFlow Lite, Edge Impulse, Kaggle for training compute
-
-Environment: WSL2 + Ubuntu + Conda + VS Code
-
-### Currently learning
-
-- Practical deep learning - fast.ai
-- TensorFlow Lite for Microcontrollers
-- Embedded firmware engineering
-  
 ---
 
 ## 🛠️ Tech Stack
