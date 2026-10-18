@@ -1,28 +1,38 @@
-"""Build the transparent, light/dark SVG used by the profile README."""
+"""Build the transparent light/dark chart used by the profile README."""
+
 from pathlib import Path
 import re
 
-ROOT = Path(__file__).resolve().parents[2] / "profile-3d-contrib"
+CHARTS = Path(__file__).resolve().parents[2] / "profile-3d-contrib"
+
+CSS = """* {font-family:"Ubuntu","Helvetica","Arial",sans-serif}
+.day{display:inline}
+.night{display:none}
+@media (prefers-color-scheme:dark){.day{display:none}.night{display:inline}}
+.day text{paint-order:stroke fill;stroke:#fff;stroke-width:2px;stroke-linejoin:round}
+.night text{paint-order:stroke fill;stroke:#00000f;stroke-width:2px;stroke-linejoin:round}"""
 
 
-def chart(name, background):
-    source = (ROOT / name).read_text(encoding="utf-8")
-    source = re.sub(r'^<svg[^>]*>', '', source, count=1)
-    source = re.sub(r'</svg>\\s*$', '', source, count=1)
-    source = re.sub(r'^<style>[\\s\\S]*?</style>', '', source, count=1)
-    pattern = rf'^<rect x="0" y="0" width="1280" height="850" fill="{background}"></rect>'
-    if not re.match(pattern, source):
-        raise ValueError(f"Unexpected background for {name}; review the generator output")
-    return re.sub(pattern, '', source, count=1)
+def chart(filename, background):
+    svg = (CHARTS / filename).read_text(encoding="utf-8")
+    if not svg.startswith("<svg ") or "</svg>" not in svg:
+        raise ValueError(f"Unexpected SVG source: {filename}")
+    inner = svg.split(">", 1)[1].rsplit("</svg>", 1)[0]
+    inner = re.sub(r"^<style>.*?</style>", "", inner, count=1, flags=re.S)
+    bg = f'<rect x="0" y="0" width="1280" height="850" fill="{background}"></rect>'
+    if not inner.startswith(bg):
+        raise ValueError(f"Unexpected SVG background: {filename}")
+    return inner[len(bg):]
 
 
-css = "* {font-family:\"Ubuntu\",\"Helvetica\",\"Arial\",sans-serif}\n.day{display:inline}\n.night{display:none}\n@media (prefers-color-scheme:dark){.day{display:none}.night{display:inline}}\n.day text{paint-order:stroke fill;stroke:#fff;stroke-width:2px;stroke-linejoin:round}\n.night text{paint-order:stroke fill;stroke:#00000f;stroke-width:2px;stroke-linejoin:round}"
 day = chart("profile-green-animate.svg", "#ffffff")
 night = chart("profile-night-green.svg", "#00000f")
 output = (
     '<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="850" '
-    'viewBox="0 0 1280 850"><style>' + css + '</style>'
-    '<g class="day">' + day + '</g>'
-    '<g class="night">' + night + '</g></svg>\\n'
+    'viewBox="0 0 1280 850">'
+    f"<style>{CSS}</style>"
+    f'<g class="day">{day}</g>'
+    f'<g class="night">{night}</g>'
+    "</svg>\n"
 )
-(ROOT / "profile-adaptive.svg").write_text(output, encoding="utf-8")
+(CHARTS / "profile-adaptive.svg").write_text(output, encoding="utf-8")
