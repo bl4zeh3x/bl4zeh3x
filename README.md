@@ -58,9 +58,6 @@ I'm interested in internships, open-source contributions, and projects involving
   </tr>
 </table>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg">
-  <img alt="Blaze's 3D GitHub contribution graph" src="./profile-3d-contrib/profile-green-animate.svg">
-</picture>
+![3D GitHub contribution graph — light theme](./profile-3d-contrib/profile-green-animate.svg#gh-light-mode-only)
+![3D GitHub contribution graph — dark theme](./profile-3d-contrib/profile-night-green.svg#gh-dark-mode-only)
 
