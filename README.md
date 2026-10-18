@@ -54,7 +54,7 @@ I'm interested in internships, open-source contributions, and projects involving
   </tr>
   <tr>
     <td><strong>Currently Learning</strong></td>
-    <td><img src="./assets/skills/tinyml.svg" width="40" height="40" alt="TinyML (topic icon)" title="TinyML (topic icon)" /> <small>TinyML</small>&nbsp;&nbsp; <img src="https://raw.githubusercontent.com/fastai/logos/master/logo_square.png" width="40" height="40" alt="fast.ai" title="fast.ai" /> <small>fast.ai</small>&nbsp;&nbsp; <img src="./assets/skills/embedded-firmware.svg" width="40" height="40" alt="Embedded firmware (topic icon)" title="Embedded firmware (topic icon)" /> <small>Embedded firmware</small></td>
+    <td><img src="./assets/skills/tinyml.svg" width="40" height="40" alt="TinyML (topic icon)" title="TinyML (topic icon)" />  <img src="https://raw.githubusercontent.com/fastai/logos/master/logo_square.png" width="40" height="40" alt="fast.ai" title="fast.ai" />  <img src="./assets/skills/embedded-firmware.svg" width="40" height="40" alt="Embedded firmware (topic icon)" title="Embedded firmware (topic icon)" /></td>
   </tr>
 </table>
 
