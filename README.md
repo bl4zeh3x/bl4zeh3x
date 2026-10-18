@@ -44,9 +44,9 @@ I'm interested in internships, open-source contributions, and projects involving
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white"/>
+  <img src="./assets/skills/numpy.svg" alt="NumPy" title="NumPy" width="48" height="48" />
+  <img src="./assets/skills/pandas.svg" alt="Pandas" title="Pandas" width="48" height="48" />
+  <img src="./assets/skills/jupyter.svg" alt="Jupyter" title="Jupyter" width="48" height="48" />
 </p>
 
 ### Development
@@ -64,17 +64,13 @@ I'm interested in internships, open-source contributions, and projects involving
 ### Engineering
 
 <p>
-  <img src="https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white"/>
-  <img src="https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white"/>
+  <img src="./assets/skills/matlab.svg" alt="MATLAB" title="MATLAB" width="48" height="48" />
+  <img src="./assets/skills/kicad.svg" alt="KiCad" title="KiCad" width="48" height="48" />
 </p>
 
 ### Currently Learning
 
-<p>
-  <img src="https://img.shields.io/badge/TinyML-0A84FF?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Fast.ai-1E90FF?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Embedded%20Firmware-555555?style=flat-square"/>
-</p>
+<p>TinyML · fast.ai · Embedded firmware</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg">
