@@ -76,5 +76,9 @@ I'm interested in internships, open-source contributions, and projects involving
   <img src="https://img.shields.io/badge/Embedded%20Firmware-555555?style=flat-square"/>
 </p>
 
-![](./profile-3d-contrib/profile-green-animate.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg">
+  <img alt="Blaze's 3D GitHub contribution graph" src="./profile-3d-contrib/profile-green-animate.svg">
+</picture>
 
