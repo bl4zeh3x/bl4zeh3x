@@ -7,7 +7,7 @@ I've been working on small machine-learning models intended for microcontrollers
 <p align="left">
   <a href="https://instagram.com/bl4zeh3x"><img src="assets/social/instagram.svg" width="22" height="22" alt="Instagram" /></a>&nbsp;&nbsp;
   <a href="https://x.com/bl4zeh3x"><img src="assets/social/x.svg" width="22" height="22" alt="X" /></a>&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/bl4zeh3x"><img src="assets/social/Linkedin.svg" width="22" height="22" alt="LinkedIn" /></a>&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/balajee-dev/"><img src="assets/social/Linkedin.svg" width="22" height="22" alt="LinkedIn" /></a>&nbsp;&nbsp;
   <a href="https://kaggle.com/bl4zeh3x"><img src="assets/social/Kaggle.svg" width="22" height="22" alt="Kaggle" /></a>
 </p>
 
